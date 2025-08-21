@@ -2,6 +2,7 @@
 
 import { useState, useEffect, useRef } from "react"
 import { Card, CardContent } from "@/components/ui/card"
+import { withBasePath } from "@/helper"
 
 const projects = [
   {
@@ -39,9 +40,9 @@ const projects = [
 ]
 
 const techIcons: { [key: string]: string } = {
-  "Next.js": "/icons/nextjs.svg",
+  "Next.js": withBasePath+"/icons/nextjs.svg",
   "Laravel": "/icons/laravel.svg",
-  MySQL: "/icons/mysql.svg",
+  MySQL: "./icons/mysql.svg",
   "Tailwind CSS": "/icons/tailwind.svg",
   "React Native": "📱",
   TypeScript: "📘",
