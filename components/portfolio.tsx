@@ -9,7 +9,7 @@ const projects = [
     id: 1,
     title: "Mock Exam Platform",
     description: "Modern online shopping mall built with React and Node.js",
-    image: "/mockexam.png",
+    image: withBasePath+"/mockexam.png",
     tech: ["Next.js", "Laravel", "MySQL", "Tailwind CSS"],
     category: "Web Application",
   },
@@ -41,9 +41,9 @@ const projects = [
 
 const techIcons: { [key: string]: string } = {
   "Next.js": withBasePath+"/icons/nextjs.svg",
-  "Laravel": "/icons/laravel.svg",
-  MySQL: "./icons/mysql.svg",
-  "Tailwind CSS": "/icons/tailwind.svg",
+  "Laravel": withBasePath+"/icons/laravel.svg",
+  MySQL: withBasePath+"/icons/mysql.svg",
+  "Tailwind CSS": withBasePath+"/icons/tailwind.svg",
   "React Native": "📱",
   TypeScript: "📘",
   Firebase: "🔥",

@@ -2,6 +2,7 @@
 
 import { useEffect, useState } from "react"
 import { Button } from "@/components/ui/button"
+import { withBasePath } from "@/helper"
 
 export default function Hero() {
   const [isVisible, setIsVisible] = useState(false)
@@ -94,7 +95,7 @@ export default function Hero() {
                   {/* Placeholder for profile photo */}
                   <div className="w-full h-full bg-gradient-to-br from-accent/10 to-primary/10 flex items-center justify-center">
                     <img
-                      src="/yaya.jpg"
+                      src= {withBasePath+"/yaya.jpg"}
                       alt="Dariya Dourng - Full Stack Developer"
                       className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
                     />
