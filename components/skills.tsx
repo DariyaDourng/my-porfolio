@@ -5,27 +5,27 @@ import { useState, useEffect, useRef } from "react"
 
 const skillCategories = {
   languages: [
-    { name: "JavaScript", level: 75, icon: withBasePath+"/icons/javascript.png", color: "from-yellow-400 to-yellow-600" },
-    { name: "TypeScript", level: 72, icon: withBasePath+"/icons/typescript.svg", color: "from-blue-500 to-blue-700" },
-    { name: "HTML", level: 78, icon: withBasePath+"/icons/html.svg", color: "from-orange-400 to-orange-600" },
-    { name: "CSS", level: 77, icon: withBasePath+"/icons/css.svg", color: "from-blue-400 to-blue-600" },
-    { name: "Python", level: 50, icon: withBasePath+ "/icons/python.svg", color: "from-yellow-400 to-blue-500" },
-    { name: "PHP", level: 70, icon: withBasePath+"/icons/php.svg", color: "from-purple-500 to-purple-700" },
+    { name: "JavaScript", level: 75, icon:"/.icons/javascript.png", color: "from-yellow-400 to-yellow-600" },
+    { name: "TypeScript", level: 72, icon:"/.icons/typescript.svg", color: "from-blue-500 to-blue-700" },
+    { name: "HTML", level: 78, icon:"/.icons/html.svg", color: "from-orange-400 to-orange-600" },
+    { name: "CSS", level: 77, icon:"/.icons/css.svg", color: "from-blue-400 to-blue-600" },
+    { name: "Python", level: 50, icon: "./icons/python.svg", color: "from-yellow-400 to-blue-500" },
+    { name: "PHP", level: 70, icon:"/.icons/php.svg", color: "from-purple-500 to-purple-700" },
   ],
   frameworks: [
-    { name: "React", level: 73, icon: withBasePath+"/icons/react.svg", color: "from-blue-400 to-blue-600" },
-    { name: "Next.js", level: 75, icon: withBasePath+"/icons/nextjs.svg", color: "from-gray-700 to-black" },
-    { name: "Laravel", level: 74, icon: withBasePath+"/icons/laravel.svg", color: "from-red-500 to-red-700" },
+    { name: "React", level: 73, icon:"/.icons/react.svg", color: "from-blue-400 to-blue-600" },
+    { name: "Next.js", level: 75, icon:"/.icons/nextjs.svg", color: "from-gray-700 to-black" },
+    { name: "Laravel", level: 74, icon:"/.icons/laravel.svg", color: "from-red-500 to-red-700" },
   ],
   databases: [
-    { name: "MySQL", level: 75, icon: withBasePath+"/icons/mysql.svg", color: "from-blue-500 to-blue-700" },
-    { name: "MongoDB", level: 50, icon: withBasePath+"/icons/mogodb.svg", color: "from-green-500 to-green-700" },
+    { name: "MySQL", level: 75, icon:"/.icons/mysql.svg", color: "from-blue-500 to-blue-700" },
+    { name: "MongoDB", level: 50, icon:"/.icons/mogodb.svg", color: "from-green-500 to-green-700" },
   ],
   tools: [
-    { name: "Git", level: 80, icon: withBasePath+"/icons/git.svg", color: "from-orange-500 to-red-600" },
-    { name: "Docker", level: 50, icon: withBasePath+"/icons/docker.svg", color: "from-blue-400 to-blue-600" },
-    { name: "VS Code", level: 80, icon: withBasePath+"/icons/vscode.svg", color: "from-blue-500 to-purple-600" },
-    { name: "Figma", level: 80, icon: withBasePath+"/icons/figma.svg", color: "from-purple-400 to-pink-500" },
+    { name: "Git", level: 80, icon:"/.icons/git.svg", color: "from-orange-500 to-red-600" },
+    { name: "Docker", level: 50, icon:"/.icons/docker.svg", color: "from-blue-400 to-blue-600" },
+    { name: "VS Code", level: 80, icon:"/.icons/vscode.svg", color: "from-blue-500 to-purple-600" },
+    { name: "Figma", level: 80, icon:"/.icons/figma.svg", color: "from-purple-400 to-pink-500" },
   ],
 }
 

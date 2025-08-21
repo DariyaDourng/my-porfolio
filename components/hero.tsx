@@ -95,7 +95,7 @@ export default function Hero() {
                   {/* Placeholder for profile photo */}
                   <div className="w-full h-full bg-gradient-to-br from-accent/10 to-primary/10 flex items-center justify-center">
                     <img
-                      src= {withBasePath+"/yaya.jpg"}
+                      src= {"./yaya.jpg"}
                       alt="Dariya Dourng - Full Stack Developer"
                       className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
                     />
