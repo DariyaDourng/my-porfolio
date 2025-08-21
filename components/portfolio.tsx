@@ -43,7 +43,7 @@ const techIcons: { [key: string]: string } = {
   "Next.js": "./icons/nextjs.svg",
   "Laravel": "./icons/laravel.svg",
   MySQL: "./icons/mysql.svg",
-  "Tailwind CSS": "/icons/tailwind.svg",
+  "Tailwind CSS": "./icons/tailwind.svg",
   "React Native": "📱",
   TypeScript: "📘",
   Firebase: "🔥",
