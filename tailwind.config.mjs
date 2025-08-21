@@ -3,8 +3,9 @@
 export default {
   darkMode: "class",
   content: [
-    "./index.html",
-    "./src/**/*.{js,ts,jsx,tsx}", // adjust to your project
+    "./app/**/*.{js,ts,jsx,tsx}",        // all files in app/ folder
+    "./components/**/*.{js,ts,jsx,tsx}", // all components
+    "./pages/**/*.{js,ts,jsx,tsx}",      // if you have pages/ folder
   ],
   theme: {
     extend: {
@@ -15,7 +16,7 @@ export default {
         "card-foreground": "var(--card-foreground)",
         popover: "var(--popover)",
         "popover-foreground": "var(--popover-foreground)",
-        primary: "var(--primary)",                     // ✅ now bg-primary works
+        primary: "var(--primary)",
         "primary-foreground": "var(--primary-foreground)",
         secondary: "var(--secondary)",
         "secondary-foreground": "var(--secondary-foreground)",
